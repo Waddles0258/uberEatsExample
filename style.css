@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  -webkit-box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+}
+.header p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  padding-left: 200px;
+  padding-bottom: 20px;
+}
+.header span {
+  font-weight: 400;
+  color: rgb(87, 173, 86);
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgb(29, 29, 29);
+}
+
+h2:hover {
+  width: 400px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(176, 254, 137)), to(rgb(58, 160, 131)));
+  background-image: linear-gradient(90deg, rgb(176, 254, 137), rgb(58, 160, 131));
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.catalog img {
+  width: 400px;
+  margin-top: 50px;
+}
+.catalog img:hover {
+  width: 450px;
+  -webkit-box-shadow: 0 0 0 1px silver, 0 -20px 0 -10px coral, 20px 0 0 -10px darkturquoise, 0 20px 0 -10px gold, -20px 0 0 -10px green;
+          box-shadow: 0 0 0 1px silver, 0 -20px 0 -10px coral, 20px 0 0 -10px darkturquoise, 0 20px 0 -10px gold, -20px 0 0 -10px green;
+}
+
+.catalog_block {
+  width: 500px;
+  height: 500px;
+}
+.catalog_block h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(29, 29, 29);
+}
+.catalog_block h4:hover {
+  color: rgb(89, 189, 90);
+}
+.catalog_block p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgb(29, 29, 29);
+  margin-top: -10px;
+}
+.catalog_block span {
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+
+.footer {
+  background: rgb(38, 38, 38);
+  margin-top: 100px;
+}
+.footer p {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  padding-bottom: 30px;
+  color: white;
+  padding-top: 30px;
+}
+.footer span {
+  font-weight: 400;
+  color: rgb(87, 173, 86);
+}
+.footer hr {
+  width: 80%;
+  height: 1px;
+  color: white;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+
+a:hover {
+  color: rgb(87, 173, 86);
+}
+
+.menu_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+.icons img {
+  width: 24px;
+  padding-left: 10px;
+}
+
+.download {
+  width: 20%;
+  margin: 0 auto;
+}
+.download img {
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.techInc {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+}
+
+.green {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  background: rgb(89, 189, 90);
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.green img {
+  width: 15px;
+  height: 25px;
+  padding-top: 27px;
+  padding-left: 32px;
+}
+
+.mcdonalds_main {
+  width: 80%;
+  margin: 0 auto;
+  background: url(images/mcBG.png) no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  margin-top: -20px;
+  padding-bottom: 70px;
+}
+
+.card_main {
+  background-color: white;
+  padding: 20px;
+  width: 390px;
+  height: 205px;
+  margin-top: 80px;
+  margin-left: 80px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 16px rgba(117, 117, 117, 0.2);
+          box-shadow: 0 0 16px rgba(117, 117, 117, 0.2);
+}
+.card_main h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: rgb(29, 29, 29);
+  padding-left: 10px;
+}
+
+.inform {
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.inform p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+
+.time {
+  width: 100px;
+  height: 32px;
+  background-color: rgb(38, 38, 38);
+  border-radius: 16px;
+}
+.time p {
+  color: white;
+  margin-top: 7px;
+}
+
+.menu_main {
+  width: 50%;
+  margin-left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu_main a {
+  padding-top: 50px;
+  color: rgb(98, 98, 98);
+}
+.menu_main a:hover {
+  color: rgb(87, 173, 86);
+}
+
+h3 {
+  padding-left: 200px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgb(29, 29, 29);
+}
+
+h3:hover {
+  width: 400px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(176, 254, 137)), to(rgb(58, 160, 131)));
+  background-image: linear-gradient(90deg, rgb(176, 254, 137), rgb(58, 160, 131));
+}
+
+h4 {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgb(29, 29, 29);
+}
+
+.part_catalog {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.part_catalog_block {
+  width: 470px;
+  height: 160px;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+.part_catalog_block img {
+  height: 160px;
+}
+
+.part_catalog_text {
+  padding: 10px 30px;
+}
+.part_catalog_text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(29, 29, 29);
+  padding-top: 20px;
+}
+
+.dimsum_main {
+  width: 80%;
+  margin: 0 auto;
+  background: url(images/dimsumBG.png) no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  margin-top: -20px;
+  padding-bottom: 70px;
+}
+
+.dvizok_main {
+  width: 80%;
+  margin: 0 auto;
+  background: url(images/dvizokBG.png) no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  margin-top: -20px;
+  padding-bottom: 70px;
+}
+
+.dvizok_main {
+  width: 80%;
+  margin: 0 auto;
+  background: url(images/nhaBG.png) no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  margin-top: -20px;
+  padding-bottom: 70px;
+}
+
+.cinnabon_main {
+  width: 80%;
+  margin: 0 auto;
+  background: url(images/cinnabonBG.png) no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  margin-top: -20px;
+  padding-bottom: 70px;
+}
